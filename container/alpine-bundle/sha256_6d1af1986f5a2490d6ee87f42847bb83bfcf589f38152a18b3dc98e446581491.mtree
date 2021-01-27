@@ -1,0 +1,779 @@
+#          user: root
+#       machine: ubuntu-groovy
+#          tree: alpine-bundle/rootfs
+#          date: Wed Jan 27 19:57:21 2021
+#      keywords: size,type,uid,gid,mode,link,nlink,tar_time,sha256digest,xattr
+
+# .
+/set type=file nlink=1 mode=0664 uid=0 gid=0
+. size=4096 type=dir mode=0755 nlink=19 tar_time=0.000000000
+
+# bin
+bin size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    arch size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ash size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    base64 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    bbconfig size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    busybox size=824904 mode=0755 tar_time=1609955626.000000000 sha256digest=2989e9597d9515bbff0f8729bdf412312e46047cd5ce073221a2ac264cf563f0
+    cat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    chgrp size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    chmod size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    chown size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    cp size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    date size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    dd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    df size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    dmesg size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    dnsdomainname size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    dumpkmap size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    echo size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ed size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    egrep size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    false size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fatattr size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fdflush size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fgrep size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fsync size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    getopt size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    grep size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    gunzip size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    gzip size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    hostname size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ionice size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    iostat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ipcalc size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    kbd_mode size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    kill size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    link size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    linux32 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    linux64 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ln size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    login size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ls size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    lzop size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    makemime size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mkdir size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mknod size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mktemp size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    more size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mount size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mountpoint size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mpstat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mv size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    netstat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nice size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pidof size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ping size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ping6 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pipe_progress size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    printenv size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ps size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pwd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    reformime size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    rev size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    rm size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    rmdir size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    run-parts size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sed size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    setpriv size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    setserial size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sh size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sleep size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    stat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    stty size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    su size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sync size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    tar size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    touch size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    true size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    umount size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    uname size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    usleep size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    watch size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    zcat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+..
+
+# dev
+dev size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc
+etc size=4096 type=dir mode=0755 nlink=15 tar_time=1610624963.000000000
+    alpine-release size=7 mode=0644 tar_time=1610624894.000000000 sha256digest=3713acffd953d571bccbe163951aeef988a75f945c049b7fba53f080311267fa
+    fstab size=89 mode=0644 tar_time=1592562768.000000000 sha256digest=a3efca2e8d62785c87517283092b4c800d88612b6f3f06b80a4c2f39d8e68841
+    group size=682 mode=0644 tar_time=1592562768.000000000 sha256digest=412af628e00706d3c90a5d465d59cc422ff68d79eeb8870c4f33ed6df04b2871
+    hostname size=10 mode=0644 tar_time=1592562768.000000000 sha256digest=d906aecb61d076a967d9ffe8821c7b04b063f72df9d9e35b33ef36b1c0d98f16
+    hosts size=79 mode=0644 tar_time=1592562768.000000000 sha256digest=e3998dbe02b51dada33de87ae43d18a93ab6915b9e34f5a751bf2b9b25a55492
+    inittab size=570 mode=0644 tar_time=1592562768.000000000 sha256digest=54a5f36970125bf70cdf7b215c9e12a287d92ad76a693bd72aec4cbc5645df87
+    issue size=54 mode=0644 tar_time=1610624894.000000000 sha256digest=0f421c55a2b66f3343448926bce10814b659d5188739604e8de00bcce549eef0
+    modules size=15 mode=0644 tar_time=1592562768.000000000 sha256digest=2c881de75a5409c35d2433a24f180b8b02ba478ef2c1c60ea3434a35bcbc335d
+    motd size=283 mode=0644 tar_time=1592562768.000000000 sha256digest=4ada0c700c4460f85252987092650c6708f17b4ccebc9ae4fcf8732089a1485f
+    mtab size=12 type=link mode=0777 link=/proc/mounts tar_time=1610624963.000000000
+    os-release size=164 mode=0644 tar_time=1610624894.000000000 sha256digest=08368601adb3083d48a0fe39394c2208820233c38901ca7003320e24c8b38613
+    passwd size=1172 mode=0644 tar_time=1592562768.000000000 sha256digest=2e0902cf0a7f64bf4e64ef2fad66ae977b4d01975dddf5352a84aea5c4e901f0
+    profile size=238 mode=0644 tar_time=1592562768.000000000 sha256digest=88dc4b847ee3ca91501b025dee3ff49590a85360a20e90a5e0f1a37bd610f598
+    protocols size=1865 mode=0644 tar_time=1592562768.000000000 sha256digest=a6695dbd53b87c7b41dfdafd40b1c8ba34fed2f0fa8eaaa296ad17c0b154603e
+    securetty size=70 mode=0644 tar_time=1609955626.000000000 sha256digest=c8070bc7fc443ac96502b2d811afc3f7d62b24c0417451f9cc65e3eca2a2af13
+    services size=14464 mode=0644 tar_time=1592562768.000000000 sha256digest=a1c2d8af47c1a951f39f11cf53160703f282946d9821068eadf97b7d43208a34
+    shadow size=422 gid=42 mode=0640 tar_time=1610624963.000000000 sha256digest=2d6f677c66af468f483597fbaa53dbe7150eb925a111c2da25c96220915c6a1a
+    shells size=38 mode=0644 tar_time=1592562768.000000000 sha256digest=24be6ceb236610df45684c83b06c918ae45635be55f69975e43676b7595bbc5f
+    sysctl.conf size=53 mode=0644 tar_time=1592562768.000000000 sha256digest=8bba47da45bc8715c69ac904a60410eabffaa7bbbef640f9c1368ab9c48493d0
+    udhcpd.conf size=5306 mode=0644 tar_time=1609955626.000000000 sha256digest=edf929b3bf6da1fbde03687020739ee97a9a3edc825db6b768e3e2ce08ebbdd3
+
+# etc/apk
+apk size=4096 type=dir mode=0755 nlink=4 tar_time=1610624963.000000000
+    arch size=7 mode=0644 tar_time=1610624963.000000000 sha256digest=aaf631698ae5160ceb04a97681a14887fdcab47cd6e0f163c87485b3b1340b62
+    repositories size=103 mode=0644 tar_time=1610624963.000000000 sha256digest=e44b25ef011171afece2ff51a206b732f84c7f3ddc8291c6dc50cb1572c0ae1c
+    world size=59 mode=0644 tar_time=1610624963.000000000 sha256digest=713e3907167dce202d7c16034831af3d670191382a3e9026e0ac0a4023013201
+
+# etc/apk/keys
+keys size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=9c102bcc376af1498d549b77bdbfa815ae86faa1d2d82f040e616b18ef2df2d4
+    alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=ebf31683b56410ecc4c00acd9f6e2839e237a3b62b5ae7ef686705c7ba0396a9
+    alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=12f899e55a7691225603d6fb3324940fc51cd7f133e7ead788663c2b7eecb00c
+..
+
+# etc/apk/protected_paths.d
+protected_paths.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# etc/conf.d
+conf.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/crontabs
+crontabs size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    root size=283 mode=0600 tar_time=1592562768.000000000 sha256digest=575d810a9fae5f2f0671c9b2c0ce973e46c7207fbe5cb8d1b0d1836a6a0470e3
+..
+
+# etc/init.d
+init.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/logrotate.d
+logrotate.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    acpid size=140 mode=0644 tar_time=1609955626.000000000 sha256digest=d608a3b7715886b5735def0cc50a6359fd364fac2e0e0a459c588c04be471031
+..
+
+# etc/modprobe.d
+modprobe.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    aliases.conf size=1545 mode=0644 tar_time=1592562768.000000000 sha256digest=3ebaba946f213670170c7d69949f690a3854553bd0b1560f1d980cba4c83a942
+    blacklist.conf size=1998 mode=0644 tar_time=1592562768.000000000 sha256digest=2e2a6fd7a554924bbb5cbdd30f73dc05963fe0c458437b520cf4d503d4d73ff7
+    i386.conf size=122 mode=0644 tar_time=1592562768.000000000 sha256digest=6c46c4cbfb8b7594f19eb94801a350fa2221ae9ac5239a8819d15555caa76ae8
+    kms.conf size=91 mode=0644 tar_time=1592562768.000000000 sha256digest=50467fa732f809f3a2bb5738628765c5f895c3a237e1c1ad09f85d41fd9ca7c5
+..
+
+# etc/modules-load.d
+modules-load.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/network
+network size=4096 type=dir mode=0755 nlink=8 tar_time=1610624963.000000000
+
+# etc/network/if-down.d
+if-down.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/network/if-post-down.d
+if-post-down.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/network/if-post-up.d
+if-post-up.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/network/if-pre-down.d
+if-pre-down.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/network/if-pre-up.d
+if-pre-up.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/network/if-up.d
+if-up.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    dad size=218 mode=0775 tar_time=1609955626.000000000 sha256digest=eadec0a3e18ef58316d8657c6e42b6f4d35d26de52d19cfeb3d3a256622c955b
+..
+..
+
+# etc/opt
+opt size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/periodic
+periodic size=4096 type=dir mode=0755 nlink=7 tar_time=1610624963.000000000
+
+# etc/periodic/15min
+15min size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/periodic/daily
+daily size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/periodic/hourly
+hourly size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/periodic/monthly
+monthly size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# etc/periodic/weekly
+weekly size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# etc/profile.d
+profile.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    color_prompt size=295 mode=0644 tar_time=1592562768.000000000 sha256digest=a00b56dbd437d3f2c32ced50974daa3cfc84a8dd1cbaf75cf307be20b398fc75
+    locale.sh size=61 mode=0644 tar_time=1592562768.000000000 sha256digest=84eb9034099d759ff08e6da5a731cacfc63a319547ad0f1dfc1c64853aca93f2
+..
+
+# etc/ssl
+ssl size=4096 type=dir mode=0755 nlink=5 tar_time=1610624963.000000000
+    cert.pem size=25 type=link mode=0777 link=certs/ca-certificates.crt tar_time=1610624963.000000000
+    ct_log_list.cnf size=412 mode=0644 tar_time=1607461887.000000000 sha256digest=f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b
+    ct_log_list.cnf.dist size=412 mode=0644 tar_time=1607461887.000000000 sha256digest=f1c1803d13d1d0b755b13b23c28bd4e20e07baf9f2b744c9337ba5866aa0ec3b
+    openssl.cnf size=10909 mode=0644 tar_time=1607461887.000000000 sha256digest=f10ba64917b4458fafc1e078c2eb9e6a7602e68fc98c2e9e6df5e1636ae27d6b
+    openssl.cnf.dist size=10909 mode=0644 tar_time=1607461887.000000000 sha256digest=f10ba64917b4458fafc1e078c2eb9e6a7602e68fc98c2e9e6df5e1636ae27d6b
+
+# etc/ssl/certs
+certs size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    ca-certificates.crt size=214057 mode=0644 tar_time=1603630651.000000000 sha256digest=d75cdb6193888dc21d52bc2050b42be988eebdcf87d00e6b80397b097b6821d4
+..
+
+# etc/ssl/misc
+misc size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    CA.pl size=7598 mode=0755 tar_time=1607461887.000000000 sha256digest=61ab95f7e96f2b0f2acdcafb8afde2f6c43e899416397230c2fae9c1e701e45b
+    tsget size=8 type=link mode=0777 link=tsget.pl tar_time=1610624963.000000000
+    tsget.pl size=6579 mode=0755 tar_time=1607461887.000000000 sha256digest=2b9da95ebf51a3e27065f08dc0fbd5c0eb7ee2c38722c1bfc6e8c61a4bb2e245
+..
+
+# etc/ssl/private
+private size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# etc/sysctl.d
+sysctl.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# home
+home size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# lib
+lib size=4096 type=dir mode=0755 nlink=7 tar_time=1610624963.000000000
+    ld-musl-x86_64.so.1 size=604736 mode=0755 tar_time=1609717258.000000000 sha256digest=3d5b465488befcc25a968f4974370d019384f14e3e4a2702d9ff90e3e99c335a
+    libapk.so.3.12.0 size=183896 mode=0755 tar_time=1609426650.000000000 sha256digest=82d7b442a317303e63c9888eac01a3c5fbe0da7659ce874eba134c3defbbc16e
+    libc.musl-x86_64.so.1 size=19 type=link mode=0777 link=ld-musl-x86_64.so.1 tar_time=1610624963.000000000
+    libcrypto.so.1.1 size=2605744 mode=0755 tar_time=1607461887.000000000 sha256digest=d66712195d2a0d59259320e3b29f8b856fb8cc859281d63c6bc8e8886977dae5
+    libssl.so.1.1 size=523744 mode=0755 tar_time=1607461887.000000000 sha256digest=b623628804fd424e3b779b0fdf0c3ae9b6aa4b147c9b2d9ab7b4896fc9118e1d
+    libz.so.1 size=14 type=link mode=0777 link=libz.so.1.2.11 tar_time=1610624963.000000000
+    libz.so.1.2.11 size=100144 mode=0755 tar_time=1566810043.000000000 sha256digest=75daa7d87bb244dccd1def664027c05b37ca2e1be5fd41648bf7a49d3f30dcc3
+
+# lib/apk
+apk size=4096 type=dir mode=0755 nlink=3 tar_time=1610624963.000000000
+
+# lib/apk/db
+db size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    installed size=11999 mode=0644 tar_time=1610624963.000000000 sha256digest=cde6e5e80abe2bd1f723e930e81f37d84a604d2b2704979e73df1a9780089d01
+    lock size=0 mode=0600 tar_time=1610624963.000000000 sha256digest=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    scripts.tar size=11264 mode=0644 tar_time=1610624963.000000000 sha256digest=b310dac0ef1a4bafc54b6ccf106021cc36a780bc6eca8b4c7e4940ea4e565bfd
+    triggers size=76 mode=0644 tar_time=1610624963.000000000 sha256digest=753b7a347b4b81f8bc15d6e4b7409ddaa55984ced497583b5a7405bfb136e62e
+..
+..
+
+# lib/firmware
+firmware size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# lib/mdev
+mdev size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# lib/modules-load.d
+modules-load.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# lib/sysctl.d
+sysctl.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    00-alpine.conf size=1278 mode=0644 tar_time=1592562768.000000000 sha256digest=ee169bea2cb6859420b55ca7a9c23fb68b50adc1d26c951f904dec9e8f767380
+..
+..
+
+# media
+media size=4096 type=dir mode=0755 nlink=5 tar_time=1610624963.000000000
+
+# media/cdrom
+cdrom size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# media/floppy
+floppy size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# media/usb
+usb size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# mnt
+mnt size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# opt
+opt size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# proc
+proc size=4096 type=dir mode=0555 nlink=2 tar_time=1610624963.000000000
+..
+
+# root
+root size=4096 type=dir mode=0700 nlink=2 tar_time=1610624963.000000000
+..
+
+# run
+run size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# sbin
+sbin size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    acpid size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    adjtimex size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    apk size=69704 mode=0755 tar_time=1609426650.000000000 sha256digest=33f093bd7e84b5fb77e275d08e7b88536a3eb7a82a5e1150d49c0ed988a77ede
+    arp size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    blkid size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    blockdev size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    depmod size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fbsplash size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fdisk size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    findfs size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fsck size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fstrim size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    getty size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    halt size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    hwclock size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ifconfig size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ifdown size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ifenslave size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ifup size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    init size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    inotifyd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    insmod size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ip size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ipaddr size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    iplink size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ipneigh size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    iproute size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    iprule size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    iptunnel size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    klogd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ldconfig size=393 mode=0755 tar_time=1609717258.000000000 sha256digest=b4a2c06db38742e8c42c3c9838b285a7d8cdac6c091ff3df5ff9a15f1e41b9c7
+    loadkmap size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    logread size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    losetup size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    lsmod size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mdev size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mkdosfs size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mkfs.vfat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mkmntdirs size=13968 mode=0755 tar_time=1592562768.000000000 sha256digest=fd36b77c2224f4a7183b1905beeca5789eb9b8ca4b187d9aab279156bb5120dd
+    mkswap size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    modinfo size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    modprobe size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nameif size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nologin size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pivot_root size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    poweroff size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    raidautorun size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    reboot size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    rmmod size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    route size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    setconsole size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    slattach size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    swapoff size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    swapon size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    switch_root size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sysctl size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    syslogd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    tunctl size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    udhcpc size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    vconfig size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    watchdog size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+..
+
+# srv
+srv size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# sys
+sys size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# tmp
+tmp size=4096 type=dir mode=01777 nlink=2 tar_time=1610624963.000000000
+..
+
+# usr
+usr size=4096 type=dir mode=0755 nlink=7 tar_time=1610624963.000000000
+
+# usr/bin
+bin size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    \133 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    \133\133 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    awk size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    basename size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    bc size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    beep size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    blkdiscard size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    bunzip2 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    bzcat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    bzip2 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    cal size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    chvt size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    cksum size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    clear size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    cmp size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    comm size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    cpio size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    crontab size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    cryptpw size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    cut size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    dc size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    deallocvt size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    diff size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    dirname size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    dos2unix size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    du size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    eject size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    env size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    expand size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    expr size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    factor size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fallocate size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    find size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    flock size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fold size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    free size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fuser size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    getconf size=36616 mode=0755 tar_time=1609717258.000000000 sha256digest=d746c9922543159d8905ec16d1d4b0948508a6c5a3a59d6f1c77a0c17c854042
+    getent size=52144 mode=0755 tar_time=1609717258.000000000 sha256digest=d01679a08d295a61046ade7f3d0ddd50e4444278c3e29f1d78eaa8931b9fd0a3
+    groups size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    hd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    head size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    hexdump size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    hostid size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    iconv size=25352 mode=0755 tar_time=1609717258.000000000 sha256digest=80a66c0ecce5627e68c135779ee38d213051cd51209d9e8860723e4f86238657
+    id size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    install size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ipcrm size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ipcs size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    killall size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ldd size=52 mode=0755 tar_time=1609717258.000000000 sha256digest=9a49c2541a439be89f1ef1496604ef3b607f460d589877c60775acf74cdb5dfb
+    less size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    logger size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    lsof size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    lsusb size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    lzcat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    lzma size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    lzopcat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    md5sum size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mesg size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    microcom size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mkfifo size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    mkpasswd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nc size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nl size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nmeter size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nohup size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nproc size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nsenter size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nslookup size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    od size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    openvt size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    passwd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    paste size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pgrep size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pkill size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pmap size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    printf size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pscan size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pstree size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    pwdx size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    readlink size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    realpath size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    renice size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    reset size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    resize size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    scanelf size=79648 mode=0755 tar_time=1608504607.000000000 sha256digest=84acb51c4e02cf9cf32510cf9b1df5de5bcb47109bdd97e8b841074ae13e305d
+    seq size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    setkeycodes size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    setsid size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sha1sum size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sha256sum size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sha3sum size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sha512sum size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    showkey size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    shred size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    shuf size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sort size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    split size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ssl_client size=13984 mode=0755 tar_time=1609955626.000000000 sha256digest=35a63754e13e82ef94bedde87443207de0ba9fc42a3e539a151db2ed0273afce
+    strings size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sum size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    tac size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    tail size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    tee size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    test size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    time size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    timeout size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    top size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    tr size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    traceroute size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    traceroute6 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    truncate size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    tty size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ttysize size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    udhcpc6 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unexpand size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    uniq size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unix2dos size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unlink size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unlzma size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unlzop size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unshare size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unxz size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    unzip size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    uptime size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    uudecode size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    uuencode size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    vi size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    vlock size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    volname size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    wc size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    wget size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    which size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    whoami size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    whois size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    xargs size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    xxd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    xzcat size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    yes size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+..
+
+# usr/lib
+lib size=4096 type=dir mode=0755 nlink=4 tar_time=1610624963.000000000
+    libcrypto.so.1.1 size=26 type=link mode=0777 link=../../lib/libcrypto.so.1.1 tar_time=1610624963.000000000
+    libssl.so.1.1 size=23 type=link mode=0777 link=../../lib/libssl.so.1.1 tar_time=1610624963.000000000
+    libtls-standalone.so.1 size=26 type=link mode=0777 link=libtls-standalone.so.1.0.0 tar_time=1610624963.000000000
+    libtls-standalone.so.1.0.0 size=96096 mode=0755 tar_time=1587814425.000000000 sha256digest=a3d23c29c8d45cedd75a488330a02b4a8d9f648d07a85db0e738b94b7caae7dc
+
+# usr/lib/engines-1.1
+engines-1.1 size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    afalg.so size=22784 mode=0755 tar_time=1607461887.000000000 sha256digest=e9f2bf8c5e146bdc6af96cc886de5277141b076ea7593703011c8951665afdb6
+    capi.so size=13872 mode=0755 tar_time=1607461887.000000000 sha256digest=edbcc91fd25f76b1d7e56d9b4363ca6f7ed72d80c7473fe51c51422b03454173
+    padlock.so size=26528 mode=0755 tar_time=1607461887.000000000 sha256digest=b116afa413d98ebe0a347b0d90ff80955037dee3ad4ffdcd0909e661a745f2a4
+..
+
+# usr/lib/modules-load.d
+modules-load.d size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# usr/local
+local size=4096 type=dir mode=0755 nlink=5 tar_time=1610624963.000000000
+
+# usr/local/bin
+bin size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# usr/local/lib
+lib size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# usr/local/share
+share size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# usr/sbin
+sbin size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    add-shell size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    addgroup size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    adduser size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    arping size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    brctl size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    chpasswd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    chroot size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    crond size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    delgroup size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    deluser size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ether-wake size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    fbset size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    killall5 size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    loadfont size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nanddump size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nandwrite size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    nbd-client size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    ntpd size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    partprobe size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    rdate size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    rdev size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    readahead size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    remove-shell size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    rfkill size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    sendmail size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    setfont size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+    setlogcons size=12 type=link mode=0777 link=/bin/busybox tar_time=1610624963.000000000
+..
+
+# usr/share
+share size=4096 type=dir mode=0755 nlink=6 tar_time=1610624963.000000000
+
+# usr/share/apk
+apk size=4096 type=dir mode=0755 nlink=3 tar_time=1610624963.000000000
+
+# usr/share/apk/keys
+keys size=4096 type=dir mode=0755 nlink=9 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=9c102bcc376af1498d549b77bdbfa815ae86faa1d2d82f040e616b18ef2df2d4
+    alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=ebf31683b56410ecc4c00acd9f6e2839e237a3b62b5ae7ef686705c7ba0396a9
+    alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=1bb2a846c0ea4ca9d0e7862f970863857fc33c32f5506098c636a62a726a847b
+    alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=12f899e55a7691225603d6fb3324940fc51cd7f133e7ead788663c2b7eecb00c
+    alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=73867d92083f2f8ab899a26ccda7ef63dfaa0032a938620eda605558958a8041
+    alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=9a4cd858d9710963848e6d5f555325dc199d1c952b01cf6e64da2c15deedbd97
+    alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=780b3ed41786772cbc7b68136546fa3f897f28a23b30c72dde6225319c44cfff
+    alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub size=451 mode=0644 tar_time=1584049739.000000000 sha256digest=59c01c57b446633249f67c04b115dd6787f4378f183dff2bbf65406df93f176d
+
+# usr/share/apk/keys/aarch64
+aarch64 size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub tar_time=1610624963.000000000
+..
+
+# usr/share/apk/keys/armhf
+armhf size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub tar_time=1610624963.000000000
+..
+
+# usr/share/apk/keys/mips64
+mips64 size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub tar_time=1610624963.000000000
+..
+
+# usr/share/apk/keys/ppc64le
+ppc64le size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub tar_time=1610624963.000000000
+..
+
+# usr/share/apk/keys/s390x
+s390x size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub tar_time=1610624963.000000000
+..
+
+# usr/share/apk/keys/x86
+x86 size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub tar_time=1610624963.000000000
+..
+
+# usr/share/apk/keys/x86_64
+x86_64 size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub tar_time=1610624963.000000000
+    alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub size=54 type=link mode=0777 link=../alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub tar_time=1610624963.000000000
+..
+..
+..
+
+# usr/share/man
+man size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# usr/share/misc
+misc size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# usr/share/udhcpc
+udhcpc size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    default.script size=3685 mode=0755 tar_time=1609955626.000000000 sha256digest=04d4b9c67b5e4ee561047a3578d3d031bda5580435c2f118651394a3325a101f
+..
+..
+..
+
+# var
+var size=4096 type=dir mode=0755 nlink=12 tar_time=1610624963.000000000
+    run size=4 type=link mode=0777 link=/run tar_time=1610624963.000000000
+
+# var/cache
+cache size=4096 type=dir mode=0755 nlink=4 tar_time=1610624963.000000000
+
+# var/cache/apk
+apk size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/cache/misc
+misc size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# var/empty
+empty size=4096 type=dir mode=0555 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/lib
+lib size=4096 type=dir mode=0755 nlink=5 tar_time=1610624963.000000000
+
+# var/lib/apk
+apk size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/lib/misc
+misc size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/lib/udhcpd
+udhcpd size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# var/local
+local size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/lock
+lock size=4096 type=dir mode=0755 nlink=3 tar_time=1610624963.000000000
+
+# var/lock/subsys
+subsys size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+..
+
+# var/log
+log size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/mail
+mail size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/opt
+opt size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+..
+
+# var/spool
+spool size=4096 type=dir mode=0755 nlink=3 tar_time=1610624963.000000000
+    mail size=9 type=link mode=0777 link=/var/mail tar_time=1610624963.000000000
+
+# var/spool/cron
+cron size=4096 type=dir mode=0755 nlink=2 tar_time=1610624963.000000000
+    crontabs size=13 type=link mode=0777 link=/etc/crontabs tar_time=1610624963.000000000
+..
+..
+
+# var/tmp
+tmp size=4096 type=dir mode=01777 nlink=2 tar_time=1610624963.000000000
+..
+..
+..
