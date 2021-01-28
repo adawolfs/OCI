@@ -15,7 +15,7 @@ Ya sabes... dependencias
 
 ```
 sudo apt update
-sudo apt install containerd skopeo umoci jq python2 -y
+sudo apt install containerd ctr skopeo umoci jq python2 -y
 ```
 
 ## Obtener imagen desde Docker Hub con Skopeo
@@ -46,5 +46,7 @@ runc run sh
 ## Ejecutar un contenedor utilizando containerd
 
 ```
+systemctl start containerd
+ctr image pull docker.io/library/nginx:latest
 ctr run --rm --net-host -d docker.io/library/nginx:latest nginx
 ```
