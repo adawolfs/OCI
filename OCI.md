@@ -26,7 +26,7 @@ Nos permite hacer varias operaciones con imagenes y repositorios
 skopeo --insecure-policy copy docker://alpine:latest oci:alpine:latest
 ```
 
-## Crear OCI budle con umoci
+## Crear OCI bundle con umoci
 
 Nos permite crear, manipular e interactuar con OCI Images
 
@@ -49,4 +49,5 @@ runc run sh
 systemctl start containerd
 ctr image pull docker.io/library/nginx:latest
 ctr run --rm --net-host -d docker.io/library/nginx:latest nginx
+ctr run --rm  -d docker.io/library/nginx:latest nginx
 ```
