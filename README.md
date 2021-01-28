@@ -16,7 +16,7 @@ Demo sobre OCI para la Hora de Kubernetes, esta demo busca demostrar los aspecto
 
 ## Video
 
-[Haz click aquí](#)
+[Haz click aquí](https://youtu.be/ITwqrBko6Vw)
 
 ## Presentación
 
