@@ -4,6 +4,7 @@ Así vida es más facil y segura.
 
 ```
 mkdir runc
+cd runc
 vagrant init ubuntu/groovy64
 vagrant run && vagrant ssh
 ```
@@ -45,5 +46,5 @@ runc run sh
 ## Ejecutar un contenedor utilizando containerd
 
 ```
-ctr run --rm --net-host -d  docker.io/library/nginx:latest nginx
+ctr run --rm --net-host -d docker.io/library/nginx:latest nginx
 ```
