@@ -1,0 +1,31 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/ubuntu2010"
+
+  config.vm.provider :libvirt do |libvirt|
+    # Necesitamos memoria extra para ejecutar la maquina virtual
+    # !TODO Kata pareciera utilizar un metodo especial para configurar recursos
+    # Por default ahora las vm se crean con 2gb de memoria
+    libvirt.memory = 4096
+    libvirt.cpus = 2
+    # Enable KVM nested virtualization
+    # https://nts.strzibny.name/inception-running-vagrant-inside-vagrant-with-kvm/
+    libvirt.nested = true
+    libvirt.cpu_mode = "host-model"
+  end
+
+
+  config.vm.provision "file", source: "./tmux.conf", destination: "/tmp/tmux.conf"
+  config.vm.provision "file", source: "./containers.conf", destination: "/tmp/containers.conf"
+
+  config.vm.provision "shell"  do |s|
+    s.inline = "mv /tmp/tmux.conf /root/.tmux.conf
+                snap install kata-containers --classic
+                apt update
+                apt install podman runc tmux -y
+                cat /tmp/containers.conf >> /etc/containers/containers.conf"
+  end
+
+end

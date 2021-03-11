@@ -1,0 +1,27 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # Imagen de maquina virtual
+  config.vm.box = "generic/alpine313"
+  # Se copia el archivo repositories al /tmp de la VM
+  config.vm.provision "file", source: "./tmux.conf", destination: "/tmp/tmux.conf"
+  config.vm.provision "file", source: "./repositories", destination: "/tmp/repositories"
+  config.vm.provision "file", source: "./gitignore", destination: "/tmp/gitignore"
+  # Se configuran los repositorios y se hace upgrade de todo el sistema
+  config.vm.provision "shell"  do |s|
+    s.inline = "mv /tmp/tmux.conf /root/.tmux.conf
+                mv /tmp/repositories /etc/apk/repositories
+                mv /tmp/gitignore /.gitignore
+                apk update
+                apk upgrade -a
+                apk add tmux htop git
+                git config --global user.name 'adawolfs'
+                git config --global user.email 'adawolfs@gmail.com'
+                git init /
+                git add /
+                git commit -m 'Setup environment'
+                sync"
+    s.reboot = true
+  end
+end

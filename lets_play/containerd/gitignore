@@ -1,0 +1,14 @@
+/home
+/lib/apk
+/var/cache/apk
+/proc/**
+/sys/bus
+/sys/devices/**
+/sys/firmware/**
+/sys/fs/**
+/sys/power/**
+/sys/block/**
+/sys/class/**
+/sys/dev/**
+/sys/module/**
+/sys/kernel
