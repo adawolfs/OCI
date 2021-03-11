@@ -14,10 +14,14 @@ Demo sobre OCI para la Hora de Kubernetes, esta demo busca demostrar los aspecto
 - [runC: The little engine that could (run Docker containers) - Black Belt Track (Youtube)](https://www.youtube.com/watch?v=ZAhzoz2zJj8)
 - [What’s Under the Hood of Docker? Process Separation in the Linux kernel by Janos Pasztor (Youtube)](https://youtu.be/8iWb71ZOZPc)
 
-## Video
+## Parte 1
 
-[Haz click aquí](https://youtu.be/ITwqrBko6Vw)
+[Youtube](https://youtu.be/ITwqrBko6Vw)
 
-## Presentación
+[Slides](https://docs.google.com/presentation/d/1HQLjJphmFo-deNKoBtngkgI4mOac-PfjSoc8GI3l6sk/edit?usp=sharing)
 
-[Haz click aquí](https://docs.google.com/presentation/d/1HQLjJphmFo-deNKoBtngkgI4mOac-PfjSoc8GI3l6sk/edit?usp=sharing)
+## Parte 2
+
+[Youtube](https://youtu.be/wPwD7vY7dKM)
+
+[Slides](https://docs.google.com/presentation/d/1HQLjJphmFo-deNKoBtngkgI4mOac-PfjSoc8GI3l6sk/edit?usp=sharing)
